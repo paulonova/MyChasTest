@@ -1,0 +1,40 @@
+
+header{
+    
+    img{
+		width: 200px;
+        margin: 10px 0 10px 0;
+	}
+	
+    .header-line{
+        height: 6px;
+        background-color: $light-blue;
+    }
+}
+
+.gallery-line{
+	margin: -2px;
+	height: 10px;
+    background-color: $purple;
+}
+
+.myGalleryButton{	
+	background-color: $purple;
+	border: none;
+	position: relative;
+	left: 665px;
+	bottom: -30px;
+	border-radius: 5px;
+	color: white;
+	text-transform: uppercase;
+    padding: 8px 25px;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 22px;
+	margin-bottom: 10px;
+	
+	&:hover{
+		background-color: $light-gray;
+	}
+}
