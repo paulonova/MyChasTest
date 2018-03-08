@@ -1,0 +1,68 @@
+
+
+/*****************************/
+/* Tabs */
+/*****************************/ 
+
+.tabs-style-tzoid {
+	max-width: 950px;
+}
+
+
+.tabs-style-tzoid nav ul li a {
+	padding: 0 2em 0 1em;
+	color: $white;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+	text-decoration: none;
+}
+
+
+
+.tabs-style-tzoid nav ul li a:hover,
+.tabs-style-tzoid nav ul li a:focus {
+	color: white;
+	text-decoration: none;
+}
+
+.tabs-style-tzoid nav ul li.tab-current a,
+.tabs-style-tzoid nav ul li.tab-current a:hover {
+	color: $white;
+	text-decoration: none;
+}
+
+.tabs-style-tzoid nav ul li a span {
+	font-weight: normal;
+	font-size: 16px;
+	text-align: center;
+	
+}
+
+//The tabs..
+.tabs-style-tzoid nav ul li a::after {
+	position: absolute;
+	margin-right: 20px;
+	top: -20px;
+	right: -20px;
+	bottom: -5px;
+	left: -25px;
+	z-index: -1;
+	background: $light-gray;
+	content: '';
+	-webkit-transform: perspective(5px) rotateX(0.93deg) translateZ(-1px);
+	-moz-transform: perspective(5px) rotateX(0.93deg) translateZ(-1px);
+	transform: perspective(5px) rotateX(0.93deg) translateZ(-1px);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.tabs-style-tzoid{
+	nav ul li.tab-current a::after{
+		background: $purple;
+		box-shadow: none;
+	}
+
+	&.tabs-style-tzoid .content-wrap {
+		background: $white;
+	}
+}

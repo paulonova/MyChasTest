@@ -1,0 +1,18 @@
+
+@import "_variables.scss";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 950px;
+    margin: 0px auto;
+    background-color: $white;
+}
+
+h1.photo-gallery-text{
+    margin: 15px 0;
+    font-size: 40px;
+    font-weight: normal;
+    color: $dark-gray;
+}

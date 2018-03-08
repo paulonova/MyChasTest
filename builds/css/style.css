@@ -469,6 +469,24 @@ template {
   display: none;
 }
 
+/* line 4, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/_base.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  width: 950px;
+  margin: 0px auto;
+  background-color: #ffffff;
+}
+
+/* line 13, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/_base.scss */
+h1.photo-gallery-text {
+  margin: 15px 0;
+  font-size: 40px;
+  font-weight: normal;
+  color: #2f2f2f;
+}
+
 /* line 4, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_header.scss */
 header img {
   width: 200px;
@@ -509,6 +527,246 @@ header .header-line {
 /* line 37, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_header.scss */
 .myGalleryButton:hover {
   background-color: #bebebe;
+}
+
+/*****************************/
+/* Tabs */
+/*****************************/
+/* line 7, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabstyles.scss */
+.tabs-style-tzoid {
+  max-width: 950px;
+}
+
+/* line 12, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabstyles.scss */
+.tabs-style-tzoid nav ul li a {
+  padding: 0 2em 0 1em;
+  color: #ffffff;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+/* line 22, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabstyles.scss */
+.tabs-style-tzoid nav ul li a:hover,
+.tabs-style-tzoid nav ul li a:focus {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 28, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabstyles.scss */
+.tabs-style-tzoid nav ul li.tab-current a,
+.tabs-style-tzoid nav ul li.tab-current a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* line 34, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabstyles.scss */
+.tabs-style-tzoid nav ul li a span {
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* line 42, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabstyles.scss */
+.tabs-style-tzoid nav ul li a::after {
+  position: absolute;
+  margin-right: 20px;
+  top: -20px;
+  right: -20px;
+  bottom: -5px;
+  left: -25px;
+  z-index: -1;
+  background: #bebebe;
+  content: '';
+  -webkit-transform: perspective(5px) rotateX(0.93deg) translateZ(-1px);
+  -moz-transform: perspective(5px) rotateX(0.93deg) translateZ(-1px);
+  transform: perspective(5px) rotateX(0.93deg) translateZ(-1px);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* line 60, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabstyles.scss */
+.tabs-style-tzoid nav ul li.tab-current a::after {
+  background: #b760a9;
+  box-shadow: none;
+}
+
+/* line 65, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabstyles.scss */
+.tabs-style-tzoid.tabs-style-tzoid .content-wrap {
+  background: #ffffff;
+}
+
+/* line 2, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+.tabs {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  font-weight: 300;
+  font-size: 1.25em;
+}
+
+/* Nav */
+/* line 12, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+.tabs nav {
+  text-align: center;
+}
+
+/* line 16, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+.tabs nav ul {
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+  list-style: none;
+}
+
+/* line 25, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+.tabs nav ul li {
+  position: relative;
+  display: block;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 32, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+.tabs nav a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5em;
+}
+
+/* line 40, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+.tabs nav a span {
+  vertical-align: middle;
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+
+/* line 46, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+.content-wrap {
+  position: relative;
+  border-top: 8px solid #b760a9;
+}
+
+/* line 50, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+.content-wrap section {
+  display: none;
+  margin: -10px auto;
+  padding: 1em;
+  max-width: 950px;
+  text-align: center;
+}
+
+/* line 57, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+.content-wrap section.content-current {
+  display: inline-block;
+}
+
+/*Grid Images*/
+/* line 64, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+.grid {
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  -ms-grid-columns: auto auto auto auto auto auto auto;
+}
+
+/* line 70, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+.grid .mySlides {
+  margin: 5px;
+}
+
+/* line 77, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+.btnContainer .myButtonLeft {
+  width: 10px;
+  margin: 0 0 0 -30px;
+  height: 100%;
+  background-color: #bebebe;
+}
+
+/* line 84, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+.btnContainer .myButtonRight {
+  width: 10px;
+  right: 5px;
+  margin: 0 -35px 0 0;
+  height: 100%;
+  background-color: #bebebe;
+}
+
+/* line 91, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+.btnContainer .myButtonRight .arrow {
+  position: relative;
+  left: -8px;
+}
+
+/*previous_page and next_page button*/
+/* line 100, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+ul li.sidaBtnContainer {
+  position: relative;
+  width: 200px;
+  list-style-type: none;
+  float: right;
+  clear: both;
+}
+
+/* line 107, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+ul li.sidaBtnContainer a.button-left {
+  position: relative;
+  top: -20px;
+  display: inline-block;
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  padding: 2px;
+  text-decoration: none;
+  text-shadow: #fff 0 1px 0;
+  color: #597390;
+}
+
+/* line 110, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+ul li.sidaBtnContainer a.button-left:hover {
+  background-color: #bebebe;
+  color: #000;
+  display: inline-block;
+}
+
+/* line 113, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+ul li.sidaBtnContainer a.button-right {
+  position: relative;
+  top: -20px;
+  display: inline-block;
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  padding: 2px;
+  text-decoration: none;
+  text-shadow: #fff 0 1px 0;
+  color: #597390;
+}
+
+/* line 116, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+ul li.sidaBtnContainer a.button-right:hover {
+  background-color: #bebebe;
+  color: #000;
+  display: inline-block;
+}
+
+/* line 119, D:/FRONTEND UTVECKLING/SASS/ChasTeste/MyChasTest/sass/components/_tabs.scss */
+ul li.sidaBtnContainer span {
+  position: relative;
+  top: -20px;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=../builds/css/style.map */
