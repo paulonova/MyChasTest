@@ -1,25 +1,25 @@
+@import "_variables.scss";
 
 header{
-    
-    img{
+	img{
 		width: 200px;
-        margin: 10px 0 10px 0;
+		margin: 10px 0 10px 0;
 	}
-	
-    .header-line{
-        height: 6px;
-        background-color: $light-blue;
-    }
+
+	.header-line{
+		height: 6px;
+		background-color: #96bde1;
+	}
 }
 
 .gallery-line{
 	margin: -2px;
 	height: 10px;
-    background-color: $purple;
+    background-color: #b760a9;
 }
 
 .myGalleryButton{	
-	background-color: $purple;
+	background-color: #b760a9;
 	border: none;
 	position: relative;
 	left: 665px;
@@ -35,6 +35,6 @@ header{
 	margin-bottom: 10px;
 	
 	&:hover{
-		background-color: $light-gray;
+		background-color: #bebebe;
 	}
 }
