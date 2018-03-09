@@ -4,11 +4,9 @@
 /* Tabs */
 /*****************************/ 
 
-.tabs-style-tzoid {
-	max-width: 950px;
-}
 
 
+// text-styling inside of the tabs
 .tabs-style-tzoid nav ul li a {
 	padding: 0 2em 0 1em;
 	color: $white;
@@ -18,10 +16,10 @@
 }
 
 
-
+// Hover and Focus
 .tabs-style-tzoid nav ul li a:hover,
 .tabs-style-tzoid nav ul li a:focus {
-	color: white;
+	color: $white;
 	text-decoration: none;
 }
 
@@ -38,7 +36,7 @@
 	
 }
 
-//The tabs..
+//The tabs detail..
 .tabs-style-tzoid nav ul li a::after {
 	position: absolute;
 	margin-right: 20px;
@@ -49,14 +47,18 @@
 	z-index: -1;
 	background: $light-gray;
 	content: '';
-	-webkit-transform: perspective(5px) rotateX(0.93deg) translateZ(-1px);
-	-moz-transform: perspective(5px) rotateX(0.93deg) translateZ(-1px);
 	transform: perspective(5px) rotateX(0.93deg) translateZ(-1px);
-	-webkit-backface-visibility: hidden;
+	-webkit-transform: perspective(5px) rotateX(0.93deg) translateZ(-1px);
+	-moz-transform: perspective(5px) rotateX(0.93deg) translateZ(-1px);	
 	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	
+	
 }
 
+// Detail of the active tab
 .tabs-style-tzoid{
+	
 	nav ul li.tab-current a::after{
 		background: $purple;
 		box-shadow: none;
@@ -65,4 +67,15 @@
 	&.tabs-style-tzoid .content-wrap {
 		background: $white;
 	}
+}
+
+// icon of tabs
+.fa-heart{
+	@include tabs-icon;
+	top: -2px;
+}
+
+.fa-eye{
+	@include tabs-icon;
+	top: -3px;
 }

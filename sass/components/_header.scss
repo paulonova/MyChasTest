@@ -1,6 +1,7 @@
-@import "_variables.scss";
 
 header{
+	margin-bottom: -40px;
+
 	img{
 		width: 200px;
 		margin: 10px 0 10px 0;
@@ -8,33 +9,36 @@ header{
 
 	.header-line{
 		height: 6px;
-		background-color: #96bde1;
+		background-color: $light-blue;
 	}
 }
 
-.gallery-line{
-	margin: -2px;
-	height: 10px;
-    background-color: #b760a9;
-}
 
+
+// .gallery-line{
+// 	margin: -2px;
+// 	height: 10px;
+//     background-color: $purple;
+// }
+
+//Button to add photo
 .myGalleryButton{	
-	background-color: #b760a9;
+	background-color: $purple;
 	border: none;
 	position: relative;
-	left: 665px;
-	bottom: -30px;
+	left: 740px;	
 	border-radius: 5px;
-	color: white;
+	color: $white;
 	text-transform: uppercase;
     padding: 8px 25px;
 	text-align: center;
     text-decoration: none;
     display: inline-block;
-	font-size: 22px;
+	font-size: 15px;
+	bottom: -30px;
 	margin-bottom: 10px;
 	
 	&:hover{
-		background-color: #bebebe;
+		background-color: $light-gray;
 	}
 }

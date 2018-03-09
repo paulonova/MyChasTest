@@ -62,14 +62,24 @@
 
 /*Grid Images*/
 .grid{
-	display: grid;
-	display: -ms-grid;
-	grid-template-columns: auto auto auto auto auto auto auto;
-	-ms-grid-columns: auto auto auto auto auto auto auto;
+	margin: 0 auto;
+	max-width: 950px;
+	padding: 0 1rem;
 
-	.mySlides{
-		margin: 5px;
+	display: flex;
+    flex-wrap: wrap;
+	flex-direction: row;
+	@include flexBoxWebkit;
+
+	.mySlides {
+		width: calc(100% / 7);
+		img{
+			display: block;
+			margin: 3px;
+		}
 	}
+	
+	
 }
 
 .btnContainer{
