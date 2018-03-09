@@ -26,21 +26,24 @@
 }
 
 .agria-djurforsakring{
-    width: 100%;
-    height: 40px;
-    background-color: $blue;
     position: relative;
-
-    p.djur-title{
-        color: $white;
-        // position: relative;
+    top: -60px;
+    
+    p.adress, span.djur-title{
         clear: both;
-        // float: left;
-        font-size: 24px;
-    }
-    p.adress{
-        position: relative;
-        clear: both;
+        background-color: $blue;
+        line-height: 35px;
+        color: lighten( $blue, 20% );
         font-size: 12px;
+        top: 50%;
+
+        span.djur-title{
+            font-size: 20px;
+            float: left;
+            color: $white;
+            margin: 0 20px 0 20px;            
+        }
+
     }
+    
 }

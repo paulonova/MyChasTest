@@ -108,9 +108,9 @@
 /*previous_page and next_page button*/
 ul li.sidaBtnContainer{
 	position: relative;
-	// width: 200px;
 	list-style-type: none;
 	float: right;
+	right: 5px;
 	@include clearfix;
 
 	a.button-left {
