@@ -1,5 +1,67 @@
 
-.search-image-container{
-    color: $purple;
-    text-transform: uppercase;
+    p{
+        position: relative;
+        bottom: 60px; 
+        
+        text-transform: uppercase;
+        color: $purple;
+        font-size: 15px;
+        font-weight: 700;
+        left: 38px;
+
+        span{
+            text-transform: none;
+            font-weight: 500;
+            font-size: 12px;
+            padding-left: 10px;
+        }
+    }
+
+//Dropdown input styling
+.dropdown-form{
+    position: relative;
+    font-size: 12px;
+    bottom: 75px;
+    left: 38px;
+
+    select.ras{
+        padding: 3px 70px 3px 3px;
+    }
+
+    select.animals{
+        padding: 3px 3px 3px 3px;
+    }
 }
+
+.taggar-socialmedia{
+    float: left;
+    position: relative;
+    bottom: 75px;
+    max-width: 570px;
+    display: flex;
+    display: -ms-flexbox;
+	display: -moz-flex;
+    display: -ms-flex;
+
+    h6{
+        position: relative;
+        display: inline-block;
+        font-weight: 500;
+        left: 38px;
+        top: 5px;
+        font-size: 14px;
+        // margin-right: 10px;
+    }
+
+    ul li{
+        position: relative;
+        display: inline;
+        margin: 5px;
+        font-size: 12px;
+        text-decoration: underline;
+        color: $purple;
+
+    }
+    
+}
+

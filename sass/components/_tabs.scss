@@ -106,30 +106,32 @@
 }
 
 /*previous_page and next_page button*/
-
 ul li.sidaBtnContainer{
 	position: relative;
-	width: 200px;
+	// width: 200px;
 	list-style-type: none;
 	float: right;
-	clear: both;
+	@include clearfix;
 
 	a.button-left {
 		@include pageSelectButton;
 	
-	&:hover {@include pageSelectButtonHover;}	
+	&:hover {
+		@include pageSelectButtonHover;}	
 	}
 
 	a.button-right {
 		@include pageSelectButton;
 	
-	&:hover {@include pageSelectButtonHover;}	
+	&:hover {
+		@include pageSelectButtonHover;}	
 	}	
 
 	span{
 		position: relative;
-		top: -20px;
+		top: -10px;
 		font-size: 12px;
+		left: 20px;
 		margin: 0;
 		padding: 0;
 	}

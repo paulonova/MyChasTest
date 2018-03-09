@@ -238,15 +238,23 @@ header .header-line {
 /*previous_page and next_page button*/
 ul li.sidaBtnContainer {
   position: relative;
-  width: 200px;
   list-style-type: none;
   float: right;
+}
+
+ul li.sidaBtnContainer:before, ul li.sidaBtnContainer:after {
+  content: '';
+  display: table;
+}
+
+ul li.sidaBtnContainer:after {
   clear: both;
 }
 
 ul li.sidaBtnContainer a.button-left {
   position: relative;
-  top: -20px;
+  top: -10px;
+  left: 20px;
   display: inline-block;
   border: 1px solid #fff;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
@@ -254,6 +262,7 @@ ul li.sidaBtnContainer a.button-left {
   -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
   padding: 2px;
   text-decoration: none;
+  font-size: 12px;
   text-shadow: #fff 0 1px 0;
   color: #597390;
 }
@@ -266,7 +275,8 @@ ul li.sidaBtnContainer a.button-left:hover {
 
 ul li.sidaBtnContainer a.button-right {
   position: relative;
-  top: -20px;
+  top: -10px;
+  left: 20px;
   display: inline-block;
   border: 1px solid #fff;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
@@ -274,6 +284,7 @@ ul li.sidaBtnContainer a.button-right {
   -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
   padding: 2px;
   text-decoration: none;
+  font-size: 12px;
   text-shadow: #fff 0 1px 0;
   color: #597390;
 }
@@ -286,13 +297,114 @@ ul li.sidaBtnContainer a.button-right:hover {
 
 ul li.sidaBtnContainer span {
   position: relative;
-  top: -20px;
+  top: -10px;
   font-size: 12px;
+  left: 20px;
   margin: 0;
   padding: 0;
 }
 
-.search-image-container {
-  color: #b760a9;
+p {
+  position: relative;
+  bottom: 60px;
   text-transform: uppercase;
+  color: #b760a9;
+  font-size: 15px;
+  font-weight: 700;
+  left: 38px;
+}
+
+p span {
+  text-transform: none;
+  font-weight: 500;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.dropdown-form {
+  position: relative;
+  font-size: 12px;
+  bottom: 75px;
+  left: 38px;
+}
+
+.dropdown-form select.ras {
+  padding: 3px 70px 3px 3px;
+}
+
+.dropdown-form select.animals {
+  padding: 3px 3px 3px 3px;
+}
+
+.taggar-socialmedia {
+  float: left;
+  position: relative;
+  bottom: 75px;
+  max-width: 570px;
+  display: flex;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -ms-flex;
+}
+
+.taggar-socialmedia h6 {
+  position: relative;
+  display: inline-block;
+  font-weight: 500;
+  left: 38px;
+  top: 5px;
+  font-size: 14px;
+}
+
+.taggar-socialmedia ul li {
+  position: relative;
+  display: inline;
+  margin: 5px;
+  font-size: 12px;
+  text-decoration: underline;
+  color: #b760a9;
+}
+
+.social-icons {
+  position: relative;
+  float: right;
+  top: -85px;
+}
+
+.social-icons ul li {
+  position: relative;
+  display: inline;
+  margin: 2px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #b760a9;
+}
+
+.social-icons ul li span.share {
+  color: #0059a1;
+  margin-left: 3px;
+}
+
+.social-icons ul li img {
+  width: 25px;
+  border-radius: 5px;
+}
+
+.agria-djurforsakring {
+  width: 100%;
+  height: 40px;
+  background-color: #0059a1;
+  position: relative;
+}
+
+.agria-djurforsakring p.djur-title {
+  color: #ffffff;
+  clear: both;
+  font-size: 24px;
+}
+
+.agria-djurforsakring p.adress {
+  position: relative;
+  clear: both;
+  font-size: 12px;
 }

@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<script src="js/modernizr.custom.js"></script>
+	<script src="js/main.js" defer></script>
 </head>
 
 <body>
@@ -149,6 +150,7 @@
 								</button>
 							</div>
 						</div>
+
 						<ul>
 							<li class="sidaBtnContainer">
 								<a class="button-left previous_round" href="#">|&#8592;</a>
@@ -166,11 +168,54 @@
 
 		</section> <!-- Gallery Section -->
 
-		<section> <!-- Center Section -->
-			<div class="search-image-container">
-				<h2>sök bilder</h2>
+		<section class="search-image-container"> <!-- Center Section -->
+			<p>sök bilder <span>Nu 20173 bilder</span></p>
+			
+			<form class="dropdown-form">
+				<select name="animals" class="animals">
+				  <option value="djurslag">Välja djurslag</option>
+				  <option value="landskap">Landskap</option>
+				  <option value="puppies">Puppies</option>
+				  <option value="cats">Cats</option>
+				</select>
 
-			</div>
+				<select name="ras" class="ras">
+					<option value="ras">Välja ras(antal)</option>
+					<option value="labrador">Labrador</option>
+					<option value="pudel">Pudel</option>
+					<option value="mops">Mops</option>
+				  </select>
+			  </form>
+		</section>
+
+		<section class="taggar-socialmedia">
+			<h6>Taggar: </h6>
+			<ul class="taggar">
+				<li><a>Utställning(234)	</a></li>
+				<li><a>Valpar(456)		</a></li>
+				<li><a>Lek(432)			</a></li>
+				<li><a>Tik(2300)		</a></li>
+				<li><a>Hane(245)		</a></li>
+				<li><a>Sommar(456)		</a></li>
+				<li><a>Vinter(432)		</a></li>
+				<li><a>Bad(2300)		</a></li>
+			</ul>
+		</section>
+
+		<section class="social-icons">
+			<ul>
+				<li><img src="images/share-Icon.png" alt="share"><span class="share">Share |</span></li>
+				<li><img src="images/facebook-icon.png" alt="facebook"></li>
+				<li><img src="images/user.png" alt="facebook"></li>
+				<li><img src="images/google-icon.png" alt="facebook"></li>
+				<li><img src="images/twitter-icon.png" alt="facebook"></li>
+			</ul>
+		</section>
+
+		<section class="agria-djurforsakring">
+			<p class="djur-title">Agria Djurförsäkring</p>
+			<p class="adress">Box: 70306 - 107 23 - Besökadress: Tegeluddsvägen 11-13 - 
+				Tel: 020-88 88 88 - Fax: 08-588 421 80 - Öppetider 08:00-20:00</p>
 
 		</section>
 
