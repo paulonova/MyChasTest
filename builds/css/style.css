@@ -467,4 +467,28 @@ p.photo-search span {
   margin: 0 20px 0 20px;
 }
 
+/* line 53, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_footer.scss */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  max-width: 950px;
+  min-width: 950px;
+}
+
+/* line 61, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_footer.scss */
+.footer-container .link-list ul::first-line {
+  color: tomato;
+}
+
+/* line 66, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_footer.scss */
+.footer-container li a {
+  font-size: 9px;
+}
+
+/* line 71, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_footer.scss */
+.link-list ul li {
+  list-style-type: none;
+}
+
 /*# sourceMappingURL=../builds/css/style.map */

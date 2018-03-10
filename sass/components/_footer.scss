@@ -47,3 +47,27 @@
     }
     
 }
+
+
+//Last part, 9 collumns in footer
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    max-width: 950px;
+    min-width: 950px;
+
+
+    .link-list ul::first-line{
+        color: tomato;
+        
+    }
+
+    li a{
+        font-size: 9px;
+    }
+}
+
+.link-list ul li{
+    list-style-type: none;
+}
