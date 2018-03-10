@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   margin: 0;
   padding: 0;
@@ -70,7 +71,7 @@ header .header-line {
 
 .tabs-style-tzoid nav ul li a:hover,
 .tabs-style-tzoid nav ul li a:focus {
-  color: #ffffff;
+  color: #b760a9;
   text-decoration: none;
 }
 
@@ -124,6 +125,34 @@ header .header-line {
   font-size: 18px;
   margin-left: 10px;
   top: -3px;
+}
+
+.container2-block {
+  width: 950px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.container2-block p {
+  position: relative;
+  font-size: 42px;
+  color: #818181;
+  text-align: center;
+  top: 60px;
+}
+
+.container3-block {
+  width: 950px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.container3-block p {
+  position: relative;
+  font-size: 42px;
+  color: #818181;
+  text-align: center;
+  top: 60px;
 }
 
 .tabs {
@@ -195,31 +224,22 @@ header .header-line {
 
 /*Grid Images*/
 .grid {
-  margin: 0;
   max-width: 950px;
-  padding: 0 10px;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-  /* new */
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -ms-flex;
-  -ms-flex-wrap: wrap;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flex;
+  height: 350px;
+  position: relative;
+  margin: 0 auto;
 }
 
 .grid .mySlides {
-  width: calc(100% / 7);
-}
-
-.grid .mySlides img {
-  display: block;
+  float: left;
+  position: relative;
+  left: 15px;
   margin: 3px;
 }
 
+/**********************************************************/
+/******** FLEXBOX ALTERNATIVE (don´t work in IE11 and Edge*/
+/**********************************************************/
 .btnContainer .myButtonLeft {
   width: 10px;
   margin: 0 0 0 -30px;

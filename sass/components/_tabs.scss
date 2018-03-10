@@ -61,24 +61,44 @@
 }
 
 /*Grid Images*/
-.grid{
-	margin: 0;
-	max-width: 950px;
-	padding: 0 10px;;
-	display: flex;
-	flex-wrap: wrap;
-	// justify-content: space-between;
-	align-content: space-between; /* new */
-	@include flexBoxWebkit;
 
-	.mySlides {
-		width: calc(100% / 7);
-		img{
-			display: block;
-			margin: 3px;
-		}
-	}	
+.grid{
+	max-width: 950px;
+	height: 350px;;
+	position: relative;
+	margin: 0 auto;
+	
+	.mySlides{
+		float: left;
+		position: relative;
+		
+		left: 15px;
+		margin: 3px;
+	}
 }
+
+/**********************************************************/
+/******** FLEXBOX ALTERNATIVE (don´t work in IE11 and Edge*/
+/**********************************************************/
+// .grid{
+// 	margin: 0;
+// 	max-width: 950px;
+// 	padding: 0 10px;;
+// 	display: flex;
+// 	flex-wrap: wrap;
+// 	justify-content: space-between;
+// 	align-content: space-between;
+// 	@include flexBoxWebkit;
+
+// 	.mySlides {
+// 		width: calc(100% / 7);		
+// 		img{
+// 			justify-items: stretch;
+// 			display: block;
+// 			margin: 3px;
+// 		}
+// 	}	
+// }
 
 .btnContainer{
 

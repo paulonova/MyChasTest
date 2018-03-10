@@ -18,7 +18,7 @@
 // Hover and Focus
 .tabs-style-tzoid nav ul li a:hover,
 .tabs-style-tzoid nav ul li a:focus {
-	color: $white;
+	color: $purple;
 	text-decoration: none;
 }
 
@@ -52,7 +52,6 @@
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 	
-	
 }
 
 // Detail of the active tab
@@ -77,4 +76,34 @@
 .fa-eye{
 	@include tabs-icon;
 	top: -3px;
+}
+
+//Tabs Container 1 and 2
+
+.container2-block{	
+	width: 950px;
+	height: 250px;
+	margin: 0 auto;
+	p{
+		position: relative;
+		font-size: 42px;
+		color: $gray;
+		text-align: center;
+		top: 60px;
+	}
+
+}
+
+.container3-block{
+	width: 950px;
+	height: 250px;
+	margin: 0 auto;
+	p{
+		position: relative;
+		font-size: 42px;
+		color: $gray;
+		text-align: center;
+		top: 60px;
+	}
+	
 }
