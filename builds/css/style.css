@@ -1,10 +1,8 @@
-/* line 2, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/_base.scss */
 html {
   margin: 0;
   padding: 0;
 }
 
-/* line 7, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/_base.scss */
 body {
   margin: 0;
   padding: 0;
@@ -14,31 +12,30 @@ body {
   background-color: #ffffff;
 }
 
-/* line 16, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/_base.scss */
 h1.photo-gallery-text {
   font-size: 40px;
   font-weight: normal;
   color: #2f2f2f;
 }
 
-/* line 2, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_header.scss */
+a {
+  cursor: pointer;
+}
+
 header {
   margin-bottom: -40px;
 }
 
-/* line 5, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_header.scss */
 header img {
   width: 200px;
   margin: 10px 0 10px 0;
 }
 
-/* line 10, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_header.scss */
 header .header-line {
   height: 6px;
   background-color: #96bde1;
 }
 
-/* line 19, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_header.scss */
 .myGalleryButton {
   background-color: #b760a9;
   border: none;
@@ -56,7 +53,6 @@ header .header-line {
   margin-bottom: 10px;
 }
 
-/* line 35, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_header.scss */
 .myGalleryButton:hover {
   background-color: #bebebe;
 }
@@ -64,7 +60,6 @@ header .header-line {
 /*****************************/
 /* Tabs */
 /*****************************/
-/* line 10, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabstyles.scss */
 .tabs-style-tzoid nav ul li a {
   padding: 0 2em 0 1em;
   color: #ffffff;
@@ -73,28 +68,24 @@ header .header-line {
   text-decoration: none;
 }
 
-/* line 20, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabstyles.scss */
 .tabs-style-tzoid nav ul li a:hover,
 .tabs-style-tzoid nav ul li a:focus {
   color: #ffffff;
   text-decoration: none;
 }
 
-/* line 26, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabstyles.scss */
 .tabs-style-tzoid nav ul li.tab-current a,
 .tabs-style-tzoid nav ul li.tab-current a:hover {
   color: #ffffff;
   text-decoration: none;
 }
 
-/* line 32, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabstyles.scss */
 .tabs-style-tzoid nav ul li a span {
   font-weight: normal;
   font-size: 16px;
   text-align: center;
 }
 
-/* line 40, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabstyles.scss */
 .tabs-style-tzoid nav ul li a::after {
   position: absolute;
   margin-right: 20px;
@@ -112,18 +103,15 @@ header .header-line {
   -webkit-backface-visibility: hidden;
 }
 
-/* line 62, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabstyles.scss */
 .tabs-style-tzoid nav ul li.tab-current a::after {
   background: #b760a9;
   box-shadow: none;
 }
 
-/* line 67, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabstyles.scss */
 .tabs-style-tzoid.tabs-style-tzoid .content-wrap {
   background: #ffffff;
 }
 
-/* line 73, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabstyles.scss */
 .fa-heart {
   position: relative;
   font-size: 18px;
@@ -131,7 +119,6 @@ header .header-line {
   top: -2px;
 }
 
-/* line 78, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabstyles.scss */
 .fa-eye {
   position: relative;
   font-size: 18px;
@@ -139,7 +126,6 @@ header .header-line {
   top: -3px;
 }
 
-/* line 2, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 .tabs {
   position: relative;
   overflow: hidden;
@@ -150,12 +136,10 @@ header .header-line {
 }
 
 /* Nav */
-/* line 12, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 .tabs nav {
   text-align: center;
 }
 
-/* line 16, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 .tabs nav ul {
   position: relative;
   display: -ms-flexbox;
@@ -171,7 +155,6 @@ header .header-line {
   list-style: none;
 }
 
-/* line 25, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 .tabs nav ul li {
   position: relative;
   display: block;
@@ -179,7 +162,6 @@ header .header-line {
   text-align: center;
 }
 
-/* line 32, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 .tabs nav a {
   position: relative;
   display: block;
@@ -188,20 +170,17 @@ header .header-line {
   line-height: 1.5em;
 }
 
-/* line 40, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 .tabs nav a span {
   vertical-align: middle;
   font-size: 0.75em;
   text-transform: uppercase;
 }
 
-/* line 46, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 .content-wrap {
   position: relative;
   border-top: 8px solid #b760a9;
 }
 
-/* line 50, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 .content-wrap section {
   display: none;
   margin: -10px auto;
@@ -210,20 +189,19 @@ header .header-line {
   text-align: center;
 }
 
-/* line 57, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 .content-wrap section.content-current {
   display: inline-block;
 }
 
 /*Grid Images*/
-/* line 64, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 .grid {
-  margin: 0 auto;
+  margin: 0;
   max-width: 950px;
-  padding: 0 1rem;
+  padding: 0 10px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  align-content: space-between;
+  /* new */
   display: -ms-flexbox;
   display: -moz-flex;
   display: -ms-flex;
@@ -233,18 +211,15 @@ header .header-line {
   display: -webkit-flex;
 }
 
-/* line 74, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 .grid .mySlides {
   width: calc(100% / 7);
 }
 
-/* line 76, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 .grid .mySlides img {
   display: block;
   margin: 3px;
 }
 
-/* line 87, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 .btnContainer .myButtonLeft {
   width: 10px;
   margin: 0 0 0 -30px;
@@ -252,7 +227,6 @@ header .header-line {
   background-color: #bebebe;
 }
 
-/* line 94, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 .btnContainer .myButtonRight {
   width: 10px;
   right: 5px;
@@ -261,14 +235,12 @@ header .header-line {
   background-color: #bebebe;
 }
 
-/* line 101, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 .btnContainer .myButtonRight .arrow {
   position: relative;
   left: -8px;
 }
 
 /*previous_page and next_page button*/
-/* line 109, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 ul li.sidaBtnContainer {
   position: relative;
   list-style-type: none;
@@ -276,18 +248,15 @@ ul li.sidaBtnContainer {
   right: 5px;
 }
 
-/* line 3, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/_mixins.scss */
 ul li.sidaBtnContainer:before, ul li.sidaBtnContainer:after {
   content: '';
   display: table;
 }
 
-/* line 8, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/_mixins.scss */
 ul li.sidaBtnContainer:after {
   clear: both;
 }
 
-/* line 116, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 ul li.sidaBtnContainer a.button-left {
   position: relative;
   top: -10px;
@@ -304,14 +273,12 @@ ul li.sidaBtnContainer a.button-left {
   color: #597390;
 }
 
-/* line 119, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 ul li.sidaBtnContainer a.button-left:hover {
   background-color: #bebebe;
   color: #000;
   display: inline-block;
 }
 
-/* line 123, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 ul li.sidaBtnContainer a.button-right {
   position: relative;
   top: -10px;
@@ -328,14 +295,12 @@ ul li.sidaBtnContainer a.button-right {
   color: #597390;
 }
 
-/* line 126, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 ul li.sidaBtnContainer a.button-right:hover {
   background-color: #bebebe;
   color: #000;
   display: inline-block;
 }
 
-/* line 130, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_tabs.scss */
 ul li.sidaBtnContainer span {
   position: relative;
   top: -10px;
@@ -345,7 +310,6 @@ ul li.sidaBtnContainer span {
   padding: 0;
 }
 
-/* line 4, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_search-image.scss */
 p.photo-search {
   position: relative;
   bottom: 60px;
@@ -356,7 +320,6 @@ p.photo-search {
   left: 38px;
 }
 
-/* line 14, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_search-image.scss */
 p.photo-search span {
   text-transform: none;
   font-weight: 500;
@@ -364,7 +327,6 @@ p.photo-search span {
   padding-left: 10px;
 }
 
-/* line 23, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_search-image.scss */
 .dropdown-form {
   position: relative;
   font-size: 12px;
@@ -372,18 +334,15 @@ p.photo-search span {
   left: 38px;
 }
 
-/* line 29, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_search-image.scss */
 .dropdown-form select.ras {
   padding: 3px 70px 3px 3px;
 }
 
-/* line 33, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_search-image.scss */
 .dropdown-form select.animals {
   padding: 3px 3px 3px 3px;
 }
 
-/* line 38, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_search-image.scss */
-.taggar-socialmedia {
+.taggar-link {
   float: left;
   position: relative;
   bottom: 75px;
@@ -394,8 +353,7 @@ p.photo-search span {
   display: -ms-flex;
 }
 
-/* line 48, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_search-image.scss */
-.taggar-socialmedia h6 {
+.taggar-link h6 {
   position: relative;
   display: inline-block;
   font-weight: 500;
@@ -404,8 +362,7 @@ p.photo-search span {
   font-size: 14px;
 }
 
-/* line 58, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_search-image.scss */
-.taggar-socialmedia ul li {
+.taggar-link ul li {
   position: relative;
   display: inline;
   margin: 5px;
@@ -414,14 +371,12 @@ p.photo-search span {
   color: #b760a9;
 }
 
-/* line 3, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_footer.scss */
 .social-icons {
   position: relative;
   float: right;
   top: -85px;
 }
 
-/* line 9, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_footer.scss */
 .social-icons ul li {
   position: relative;
   display: inline;
@@ -431,26 +386,24 @@ p.photo-search span {
   color: #b760a9;
 }
 
-/* line 17, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_footer.scss */
-.social-icons ul li span.share {
+.social-icons ul li a {
   color: #0059a1;
-  margin-left: 3px;
+  text-decoration: none;
 }
 
-/* line 21, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_footer.scss */
 .social-icons ul li img {
   width: 25px;
+  margin-left: 3px;
   border-radius: 5px;
 }
 
-/* line 28, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_footer.scss */
 .agria-djurforsakring {
   position: relative;
   top: -60px;
 }
 
-/* line 32, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_footer.scss */
-.agria-djurforsakring p.adress, .agria-djurforsakring span.djur-title {
+.agria-djurforsakring p.adress,
+.agria-djurforsakring span.djur-title {
   clear: both;
   background-color: #0059a1;
   line-height: 35px;
@@ -459,36 +412,88 @@ p.photo-search span {
   top: 50%;
 }
 
-/* line 40, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_footer.scss */
-.agria-djurforsakring p.adress span.djur-title, .agria-djurforsakring span.djur-title span.djur-title {
+.agria-djurforsakring p.adress span.djur-title,
+.agria-djurforsakring span.djur-title span.djur-title {
   font-size: 20px;
   float: left;
   color: #ffffff;
   margin: 0 20px 0 20px;
 }
 
-/* line 53, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_footer.scss */
 .footer-container {
   display: flex;
-  justify-content: center;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -ms-flex;
+  -ms-flex-wrap: wrap;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  justify-content: space-between;
   align-content: space-between;
-  max-width: 950px;
-  min-width: 950px;
+  position: relative;
+  bottom: 70px;
 }
 
-/* line 61, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_footer.scss */
+.footer-container .link-list ul {
+  padding: 0;
+  margin: 15px 5px 0 5px;
+}
+
 .footer-container .link-list ul::first-line {
-  color: tomato;
+  color: #818181;
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
 }
 
-/* line 66, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_footer.scss */
-.footer-container li a {
-  font-size: 9px;
-}
-
-/* line 71, D:/FRONTEND DEVELOPMENT/SASS/ChasTest/MyChasTest/sass/components/_footer.scss */
-.link-list ul li {
+.footer-container .link-list ul li {
   list-style-type: none;
+  margin: -5px;
 }
 
-/*# sourceMappingURL=../builds/css/style.map */
+.footer-container .link-list ul li a {
+  font-size: 10px;
+  text-decoration: none;
+  color: #818181;
+}
+
+.agria-ao {
+  position: relative;
+  float: right;
+  bottom: 80px;
+}
+
+.agria-ao h3 {
+  text-transform: uppercase;
+  color: #818181;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+div.footer-line {
+  position: relative;
+  bottom: 50px;
+  width: 100%;
+  height: 3px;
+  background-color: #0059a1;
+}
+
+.footer-contacts {
+  clear: both;
+  position: relative;
+  bottom: 80px;
+  text-align: center;
+}
+
+.footer-contacts ul li {
+  padding: 5px;
+  display: inline;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.footer-contacts ul li a {
+  color: #818181;
+  font: status-bar;
+}

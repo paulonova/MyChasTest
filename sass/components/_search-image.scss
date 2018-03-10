@@ -3,8 +3,7 @@
    //Text SÖK BILDER..
    p.photo-search{
         position: relative;
-        bottom: 60px; 
-        
+        bottom: 60px;         
         text-transform: uppercase;
         color: $purple;
         font-size: 15px;
@@ -35,7 +34,7 @@
     }
 }
 
-.taggar-socialmedia{
+.taggar-link{
     float: left;
     position: relative;
     bottom: 75px;
@@ -52,7 +51,6 @@
         left: 38px;
         top: 5px;
         font-size: 14px;
-        // margin-right: 10px;
     }
 
     ul li{
@@ -62,8 +60,32 @@
         font-size: 12px;
         text-decoration: underline;
         color: $purple;
-
+        
     }
     
 }
 
+//Social media icons styling
+.social-icons {
+    position: relative;
+    float: right;
+    top: -85px;
+    ul li {
+        position: relative;
+        display: inline;
+        margin: 2px;
+        font-size: 12px;
+        text-decoration: none;
+        color: $purple;
+
+        a{
+            color: $blue;            
+            text-decoration: none;
+        }
+        img {
+            width: 25px;
+            margin-left: 3px;
+            border-radius: 5px;
+        }
+    }
+}

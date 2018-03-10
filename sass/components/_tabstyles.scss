@@ -4,10 +4,9 @@
 /* Tabs */
 /*****************************/ 
 
-
-
 // text-styling inside of the tabs
 .tabs-style-tzoid nav ul li a {
+	// clear: both;
 	padding: 0 2em 0 1em;
 	color: $white;
 	-webkit-transition: color 0.2s;
