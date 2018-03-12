@@ -1,4 +1,6 @@
 
+
+//Controll the tabs position
 (function() {
 
     [].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function(el) {
